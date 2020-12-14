@@ -28,7 +28,7 @@ RUN apt install -y python3-pip
 RUN pip3 --no-cache-dir install --upgrade pip
 RUN pip3 --no-cache-dir install -r requirements.txt
 
-RUN pyb
+RUN pyb 
 
 EXPOSE 5000
 
